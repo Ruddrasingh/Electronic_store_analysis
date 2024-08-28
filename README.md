@@ -31,7 +31,7 @@ To facilitate comprehensive analysis, I merged the individual CSV files represen
 ![image](https://github.com/user-attachments/assets/136bc0a7-1542-444b-9ba0-3d078a63b174)
 
 **Business Questions Explored**
-After preparing the data, I explored several key business questions to uncover valuable insights:
+ After preparing the data, I explored several key business questions to uncover valuable insights:
 
 #### What was the best month for sales? How much was earned that month?
 
@@ -63,22 +63,22 @@ Explanation: The table lists the combinations of products that are most frequent
 
 Explanation: The chart shows the quantity ordered and the average price for various products. AA and AAA batteries had by far the most quantity sold because they were cheaper. This affordability likely drove their high sales volume, as they are essential for many electronic devices.
 
-#### To tackle these questions, I explored various methods in pandas and matplotlib. Here’s a rundown of the techniques I used:
+**To tackle these questions, I explored various methods in pandas and matplotlib. Here’s a rundown of the techniques I used:**
 
-*String Manipulation: By parsing cells as strings with the .str accessor, I created new columns from existing data.
+- String Manipulation: By parsing cells as strings with the .str accessor, I created new columns from existing data.
 
-*Applying Functions: I utilized the .apply() method to perform custom operations on DataFrame elements.
+- Applying Functions: I utilized the .apply() method to perform custom operations on DataFrame elements.
 
-*Aggregating Data: Using groupby, I conducted aggregate analysis to summarize the data effectively.
+- Aggregating Data: Using groupby, I conducted aggregate analysis to summarize the data effectively.
 
-*Visualizing Results: I plotted bar charts and line graphs to visualize the results, making the data insights more accessible.
+- Visualizing Results: I plotted bar charts and line graphs to visualize the results, making the data insights more accessible.
 
-*Labeling Graphs: I ensured that all graphs were properly labeled for clarity.
+- Labeling Graphs: I ensured that all graphs were properly labeled for clarity.
 
-*Joining Data: Using .join to combine DataFrames.
+- Joining Data: Using .join to combine DataFrames.
 
-*Accessing Data: Using .get to safely access data.
+- Accessing Data: Using .get to safely access data.
 
-*Date Manipulation: Working with datetime for date-related operations.
+- Date Manipulation: Working with datetime for date-related operations.
 
-*Splitting Strings: Using split() to break down strings into meaningful parts.
+- Splitting Strings: Using split() to break down strings into meaningful parts.
