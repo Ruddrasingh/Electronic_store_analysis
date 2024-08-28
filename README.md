@@ -14,19 +14,19 @@ To facilitate comprehensive analysis, I merged the individual CSV files represen
 
 ## Data Cleaning
 
-Removed missing values (NaN) from the dataset.
+*Removed missing values (NaN) from the dataset.
 
 ![image](https://github.com/user-attachments/assets/f96bbdee-355d-463e-bda7-9bc35b714838)
 
-Converted columns to appropriate data types.
+*Converted columns to appropriate data types.
 
 ![image](https://github.com/user-attachments/assets/cee29e3f-439e-480f-ab64-6cdb5f020c7e)
 
-Filtered out rows based on conditions. During this process, I encountered some errors and discovered that some column names were repeating as rows in the data.
+*Filtered out rows based on conditions. During this process, I encountered some errors and discovered that some column names were repeating as rows in the data.
 
 ![image](https://github.com/user-attachments/assets/69a3a057-3aaf-44fe-a98e-1226dcd45879)
 
-Added some additional columns.
+*Added some additional columns.
 
 ![image](https://github.com/user-attachments/assets/136bc0a7-1542-444b-9ba0-3d078a63b174)
 
@@ -64,20 +64,21 @@ Explanation: The table lists the combinations of products that are most frequent
 Explanation: The chart shows the quantity ordered and the average price for various products. AA and AAA batteries had by far the most quantity sold because they were cheaper. This affordability likely drove their high sales volume, as they are essential for many electronic devices.
 
 #### To tackle these questions, I explored various methods in pandas and matplotlib. Here’s a rundown of the techniques I used:
-String Manipulation: By parsing cells as strings with the .str accessor, I created new columns from existing data.
 
-Applying Functions: I utilized the .apply() method to perform custom operations on DataFrame elements.
+*String Manipulation: By parsing cells as strings with the .str accessor, I created new columns from existing data.
 
-Aggregating Data: Using groupby, I conducted aggregate analysis to summarize the data effectively.
+*Applying Functions: I utilized the .apply() method to perform custom operations on DataFrame elements.
 
-Visualizing Results: I plotted bar charts and line graphs to visualize the results, making the data insights more accessible.
+*Aggregating Data: Using groupby, I conducted aggregate analysis to summarize the data effectively.
 
-Labeling Graphs: I ensured that all graphs were properly labeled for clarity.
+*Visualizing Results: I plotted bar charts and line graphs to visualize the results, making the data insights more accessible.
 
-Joining Data: Using .join to combine DataFrames.
+*Labeling Graphs: I ensured that all graphs were properly labeled for clarity.
 
-Accessing Data: Using .get to safely access data.
+*Joining Data: Using .join to combine DataFrames.
 
-Date Manipulation: Working with datetime for date-related operations.
+*Accessing Data: Using .get to safely access data.
 
-Splitting Strings: Using split() to break down strings into meaningful parts.
+*Date Manipulation: Working with datetime for date-related operations.
+
+*Splitting Strings: Using split() to break down strings into meaningful parts.
