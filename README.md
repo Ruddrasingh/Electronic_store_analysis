@@ -82,3 +82,8 @@ Explanation: The chart shows the quantity ordered and the average price for vari
 - Date Manipulation: Working with datetime for date-related operations.
 
 - Splitting Strings: Using split() to break down strings into meaningful parts.
+
+**Key Findings**
+- Peak Advertisement Hours: 🕛 The data indicates two peak periods for customer activity: around 12 PM and 7 PM. To maximize sales, advertisements should be displayed during these peak hours.
+- Products Sold Together: 📱🔌 The most common product combination sold together is the iPhone and Lightning Charging Cable, with 1001 occurrences. This suggests that customers often purchase these items together.
+- Cheaper Products Sold More: 💸 Products with lower prices tend to sell in higher quantities, indicating that affordability is a significant factor in customer purchasing decisions.
