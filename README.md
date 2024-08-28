@@ -1,6 +1,6 @@
 # Electronic store analysis  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-In this data analysis project, i explore 12 months’ worth of sales data from an electronics store. The dataset includes information on purchases broken down by month, product type, cost, and purchase address. As a data analyst, our goal is to uncover insights and answer key business questions.
+Using Python, Pandas & Matplotlib i explore 12 months’ worth of sales data from an electronics store. The dataset includes information on purchases broken down by month, product type, cost, and purchase address. As a data analyst, our goal is to uncover insights and answer key business questions.
 ### Data Overview
 
 Overview of the sales data used for analysis. It includes details on purchases, product types, costs, and other relevant information
