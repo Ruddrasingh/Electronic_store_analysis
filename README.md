@@ -10,5 +10,5 @@ Overview of the sales data used for analysis. It includes details on purchases, 
 
 To facilitate comprehensive analysis, I merged the individual CSV files representing each month’s sales data into a single CSV file. This allows for seamless analysis of all 12 months’ worth of data in one go.
 
-![ingserdiagram](![image](https://github.com/user-attachments/assets/850d36e9-8eed-45fb-9b9a-7cf53bdf1c87)
-)
+![image](https://github.com/user-attachments/assets/850d36e9-8eed-45fb-9b9a-7cf53bdf1c87)
+
