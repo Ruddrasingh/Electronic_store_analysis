@@ -9,6 +9,7 @@ Using **Python**, **Pandas**, and **Matplotlib**, I analyzed 12 months of sales 
 This analysis is based on a fictional dataset representing 12 months of sales data from an electronics store. The dataset includes details such as product types, purchase amounts, locations, and times. The goal is to extract valuable insights that can address key business challenges and improve sales performance.
 
 **Key Areas of Focus:**
+
 **Monthly Sales Performance:** Identify the top sales months and key drivers behind peak periods, like seasonal demand or promotions.
 
 **City-Level Sales Insights:** Analyze sales by city to pinpoint key markets and target marketing efforts.
