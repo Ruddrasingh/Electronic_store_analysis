@@ -1,89 +1,82 @@
-# Electronic store analysis  [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-Using Python, Pandas & Matplotlib i explore 12 months’ worth of sales data from an electronics store. The dataset includes information on purchases broken down by month, product type, cost, and purchase address. As a data analyst, our goal is to uncover insights and answer key business questions.
-### Data Overview
+# Electronic Store Sales Analysis [![made-with-python](https://img.shields.io/badge/Made%20with-Python-1f425f.svg)](https://www.python.org/)
 
-Overview of the sales data used for analysis. It includes details on purchases, product types, costs, and other relevant information
+Using **Python**, **Pandas**, and **Matplotlib**, I analyzed 12 months of sales data from an electronics store. The dataset provides insights into purchases by month, product type, cost, and purchase location. The aim of this analysis is to uncover key business insights and provide actionable recommendations.
 
-![App Screenshot](https://snipboard.io/31niNx.jpg)
-### Data Preparation
+## 1. Background and Overview
 
-To facilitate comprehensive analysis, I merged the individual CSV files representing each month’s sales data into a single CSV file. This allows for seamless analysis of all 12 months’ worth of data in one go.
+**Fictional Electronics Store Analysis:**
+This analysis is based on a fictional dataset representing 12 months of sales data from an electronics store. The dataset includes details such as product types, purchase amounts, locations, and times. The goal is to extract valuable insights that can address key business challenges and improve sales performance.
 
-![image](https://github.com/user-attachments/assets/850d36e9-8eed-45fb-9b9a-7cf53bdf1c87)
+**Key Areas of Focus:**
+**Monthly Sales Performance:** Identify the top sales months and key drivers behind peak periods, like seasonal demand or promotions.
 
-**Data Cleaning**
+**City-Level Sales Insights:** Analyze sales by city to pinpoint key markets and target marketing efforts.
 
-- Removed missing values (NaN) from the dataset.
+**Optimal Advertisement Timing:** Determine the best times to display ads based on peak purchase hours.
 
-![image](https://github.com/user-attachments/assets/f96bbdee-355d-463e-bda7-9bc35b714838)
+**Frequently Purchased Product Combinations:** Uncover common product pairs to explore bundling or cross-promotion opportunities.
 
-- Converted columns to appropriate data types.
+**Top-Selling Products:** Identify best-selling products and understand their success factors (e.g., price, demand).
+## 2. Data Structure Overview
 
-![image](https://github.com/user-attachments/assets/cee29e3f-439e-480f-ab64-6cdb5f020c7e)
+The dataset used for this analysis contains monthly sales data with information on:
+- Purchase date and time
+- Product type and cost
+- Purchase location (city, state)
+- Sales volume
 
-- Filtered out rows based on conditions. During this process, I encountered some errors and discovered that some column names were repeating as rows in the data.
+![Data Overview](https://snipboard.io/31niNx.jpg)
 
-![image](https://github.com/user-attachments/assets/69a3a057-3aaf-44fe-a98e-1226dcd45879)
+### Data Preparation:
+- Combined individual CSV files for each month into a single dataset to facilitate holistic analysis.
+- Cleaned the data by removing missing values, correcting data types, and resolving errors like duplicate column names.
 
-- Added some additional columns.
+![Data Cleaning](https://github.com/user-attachments/assets/cee29e3f-439e-480f-ab64-6cdb5f020c7e)
 
-![image](https://github.com/user-attachments/assets/136bc0a7-1542-444b-9ba0-3d078a63b174)
+## 3. Executive Summary
 
-**Business Questions Explored**
- After preparing the data, I explored several key business questions to uncover valuable insights:
+**Key Business Questions Answered:**
+- What was the best month for sales? How much revenue was generated that month?
+- Which city recorded the highest sales?
+- At what time should advertisements be displayed to maximize purchases?
+- What product combinations are frequently purchased together?
+- Which product sold the most, and why?
 
-#### What was the best month for sales? How much was earned that month?
+## 4. Insights Deep Dive
 
-![image](https://github.com/user-attachments/assets/43f8dc4f-5fe6-4f01-85fe-325f5d44780f)
+**Best Month for Sales:**
+December was the highest-performing month with over $4 million in sales, likely driven by holiday season demand.
 
-Explanation: The chart shows the total sales for each month. The highest sales were recorded in December, with total earnings of over $4 million. This indicates that December was the best month for sales, likely due to the holiday season driving higher consumer spending.
+![Monthly Sales](https://github.com/user-attachments/assets/43f8dc4f-5fe6-4f01-85fe-325f5d44780f)
 
-#### What city sold the most products?
+**Top City for Sales:**
+San Francisco had the highest sales, with nearly $8 million in revenue.
 
-![image](https://github.com/user-attachments/assets/7fd075d5-220d-4f81-beb7-b18250f8a9a5)
+![City Sales](https://github.com/user-attachments/assets/7fd075d5-220d-4f81-beb7-b18250f8a9a5)
 
-Explanation: The chart illustrates the total sales for various cities. San Francisco (CA) had the highest sales, reaching close to $8 million. This indicates that San Francisco is a key market for the electronics store.
+**Optimal Advertisement Timing:**
+The busiest shopping hours were around **12 PM** and **7 PM**, suggesting these times are optimal for displaying advertisements.
 
-#### What time should we display advertisements to maximize the likelihood of customers buying products?
+![Ad Timing](https://github.com/user-attachments/assets/051131fe-d0f4-46d2-b058-966852bf4c2b)
 
-![image](https://github.com/user-attachments/assets/051131fe-d0f4-46d2-b058-966852bf4c2b)
+**Popular Product Combinations:**
+The most common product combination was the **iPhone** and **Lightning Charging Cable**, with 1001 occurrences.
 
-Explanation: The chart shows the number of orders placed at different hours of the day. The data indicates two peak periods: around 12 (12 pm) and late 19 (7 pm). To maximize the likelihood of customers buying products, advertisements should be displayed during these peak hours when customer activity is highest.
+![Product Combinations](https://github.com/user-attachments/assets/c8119e65-8daa-4f7b-85a0-d27a106e6bcd)
 
-#### What products are most often sold together?
+**Top Selling Product:**
+Batteries (AA and AAA) sold the most units, driven by their lower price points and essential usage for many devices.
 
-![image](https://github.com/user-attachments/assets/c8119e65-8daa-4f7b-85a0-d27a106e6bcd)
+![Top Product](https://github.com/user-attachments/assets/598d2773-c736-4891-aec8-69bea961f9cb)
 
-Explanation: The table lists the combinations of products that are most frequently sold together. The most common combination is the iPhone and Lightning Charging Cable, with 1001 occurrences. This suggests that customers often purchase these items together.
+## 5. Recommendations
 
-#### What product sold the most? Why do you think it sold the most?
+**1. Maximize Sales During Peak Hours:**
+- Run targeted advertising campaigns around **12 PM** and **7 PM** to capture peak customer attention.
 
-![image](https://github.com/user-attachments/assets/598d2773-c736-4891-aec8-69bea961f9cb)
+**2. Highlight Best-Selling Product Combinations:**
+- Bundle products like the **iPhone** and **Lightning Charging Cable** for promotional offers, as customers frequently buy these together.
 
-Explanation: The chart shows the quantity ordered and the average price for various products. AA and AAA batteries had by far the most quantity sold because they were cheaper. This affordability likely drove their high sales volume, as they are essential for many electronic devices.
-
-**To tackle these questions, I explored various methods in pandas and matplotlib. Here’s a rundown of the techniques I used:**
-
-- String Manipulation: By parsing cells as strings with the .str accessor, I created new columns from existing data.
-
-- Applying Functions: I utilized the .apply() method to perform custom operations on DataFrame elements.
-
-- Aggregating Data: Using groupby, I conducted aggregate analysis to summarize the data effectively.
-
-- Visualizing Results: I plotted bar charts and line graphs to visualize the results, making the data insights more accessible.
-
-- Labeling Graphs: I ensured that all graphs were properly labeled for clarity.
-
-- Joining Data: Using .join to combine DataFrames.
-
-- Accessing Data: Using .get to safely access data.
-
-- Date Manipulation: Working with datetime for date-related operations.
-
-- Splitting Strings: Using split() to break down strings into meaningful parts.
-
-**Key Findings**
-- Peak Advertisement Hours: 🕛 The data indicates two peak periods for customer activity: around 12 PM and 7 PM. To maximize sales, advertisements should be displayed during these peak hours.
-- Products Sold Together: 📱🔌 The most common product combination sold together is the iPhone and Lightning Charging Cable, with 1001 occurrences. This suggests that customers often purchase these items together.
-- Cheaper Products Sold More: 💸 Products with lower prices tend to sell in higher quantities, indicating that affordability is a significant factor in customer purchasing decisions.
+**3. Focus on Affordability:**
+- Increase marketing efforts for lower-priced, essential products like **batteries**, which have the highest sales volume.
